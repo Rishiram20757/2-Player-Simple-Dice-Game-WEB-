@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Dicee</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower|Lobster" rel="stylesheet">
+    <style>
+      body {
+        background: linear-gradient(135deg, #1e3c72, #2a5298);
+        color: #fff;
+        text-align: center;
+        font-family: "Lobster", cursive;
+      }
+      .container {
+        margin-top: 50px;
+      }
+      .dice {
+        display: inline-block;
+        margin: 20px;
+      }
+      p {
+        font-size: 24px;
+        color: #ffcc00;
+      }
+      .img1 {
+        filter: hue-rotate(180deg);
+      }
+      .img2 {
+        filter: hue-rotate(90deg);
+      }
+      footer {
+        margin-top: 20px;
+        font-size: 18px;
+        color: #ccc;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Refresh Me</h1>
+      <div class="dice">
+        <p>Player 1</p>
+        <img class="img1" src="images/dice6.png">
+      </div>
+      <div class="dice">
+        <p>Player 2</p>
+        <img class="img2" src="images/dice6.png">
+      </div>
+    </div>
+    <script src="index.js" charset="utf-8"></script>
+    <footer>
+      By Rishiram B
+    </footer>
+  </body>
+</html>
